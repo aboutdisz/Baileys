@@ -4,6 +4,11 @@
   "description": "WhatsApp API in JavaScript - Fork by aboutdisz",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "WAProto/*.js",
+    "engine-requirements.js"
+  ],
   "scripts": {
     "build": "tsc",
     "preinstall": "node ./engine-requirements.js",
