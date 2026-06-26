@@ -1,21 +1,25 @@
 {
-  "name": "baileys-disz",
-  "version": "1.0.0",
-  "description": "Bot with Baileys fork by aboutdisz",
-  "main": "index.js",
+  "name": "@whiskeysockets/baileys",
+  "version": "6.7.9",
+  "description": "WhatsApp API in JavaScript - Fork by aboutdisz",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "start": "node index.js"
+    "build": "tsc",
+    "preinstall": "node ./engine-requirements.js",
+    "prepare": "",
+    "postinstall": "npm run build"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:aboutdisz/Baileys",
-    "axios": "^1.8.4",
-    "body-parser": "^2.2.0",
-    "chalk": "^5.4.1",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "node-telegram-bot-api": "^0.66.0",
-    "pino": "^9.6.0",
-    "ssh2": "^1.16.0",
-    "ws": "^8.18.3"
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.17.2",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
-} }
+}
