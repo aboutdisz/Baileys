@@ -1,6 +1,6 @@
 {
   "name": "@aboutdisz/baileys",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "WhatsApp API in JavaScript - Fork by aboutdisz",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
