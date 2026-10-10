@@ -1,6 +1,6 @@
 {
   "name": "@whiskeysockets/baileys",
-  "version": "6.7.9",
+  "version": "6.7.10",
   "description": "WhatsApp API in JavaScript - Fork by aboutdisz",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
