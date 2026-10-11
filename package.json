@@ -1,6 +1,6 @@
 {
   "name": "@aboutdisz/baileys",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Fork Baileys by aboutdisz",
   "main": "lib/index.js",
   "dependencies": {
